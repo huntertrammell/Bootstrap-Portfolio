@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body background="assets/media/bananas.png">
-    <header class="sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-            <div class="container page-header text-light">
-                <h1>
+    <header class="navbar bg-light p-0 sticky-top">
+        <nav class="container">
+            <div class="page-header text-light bg-info p-2">
+                <h1 class="container">
                     Hunter Trammell
                 </h1>
             </div>
-            <ul class="nav container justify-content-end">
+            <ul class="nav justify-content-end">
                 <li class="nav-item">
                     <a class="nav-link active text-muted" href="index.html">About</a>
                 </li>
@@ -28,14 +28,31 @@
             </ul>
         </nav>
     </header>
-    <section class="container bg-light rounded m-3">
-        <div class="row">
-            <article class="p-3">
-                <h1 class="col-12">
+    <section class="container bg-light rounded mt-3">
+        <div>
+            <header class="p-3">
+                <h1 class="text-info">
                     About Me
                 </h1>
-            </article>
+                <hr class="p-0 mb-2 bg-light">
+            </header>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-xs-12">
+                    <img class="img-fluid" src="assets/media/hunterPic.jpg" alt="Hunter Trammell">
+                </div>
+                <div class="col-sm-9 col-xs-12">
+                    <p class="lead">My Name is Hunter Trammell, I am a Level 23 Human from San Diego, California currently residing in Overland Park, Kansas. I live with my wife: Ceri and our daughter: Murphy - She is great (well they both are but I am obsessed with my Daughter!). Currently I work as an IT Help Desk Analyst for AMC Theatres and have been with the same company since I got my first job at one of their theatres as a crew member in High School.</p>
+                    <p class="lead">When I am not working and have some free time there are several things I enjoy doing. I am somewhat of a cinephile and enjoy watching the several hundred movies I have in my personal collection. If I had to choose one topic that I am most interested in it would be Computer Hardware - I enjoy building PC's and fan-boying about the latest PC hardware on the market (Computex is a rough week for my wallet).</p>
+                    <p class="lead">I enjoy computers a lot, I am A+ Certified and working with code is a new hobby of mine that I hope to blossom into a career. In a perfect world, my dream job would getting paid to build high-end aestetically pleasing computers for people, but that is not a super realistic career path. I love to create (i have penned a few novels - google it) and that is why I think that coding intrigues me so much. From what was initially a one lined .html doc I was able to create this website using nothing but brainpower and a keyboard (with the google assist when my brain isnt where I want it to be). Being able to build something out of nothing is very pleasing to me.</p>
+                </div>
+            </div>
         </div>
     </section>
+    <br><br><br><br>
+    <footer class="navbar justify-content-center bg-secondary p-4 fixed-bottom">
+            <p class="m-0">Copyright<p>
+    </footer>
 </body>
 </html>
