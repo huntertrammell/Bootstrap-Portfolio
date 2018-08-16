@@ -1,0 +1,33 @@
+#teal {
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#tealtext {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#portfoliotext {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#fontOther {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#Background {
+    background-color: #ffffff;
+}
+
+#border {
+    color: #cccccc;
+}
+
+#footer {
+    background-color: #666666;
+    color: #ffffff;
+    border-top: .25em solid #4aaaa5;
+}
